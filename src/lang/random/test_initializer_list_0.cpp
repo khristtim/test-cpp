@@ -4,6 +4,10 @@ struct Test {
     Test(int aa, int bb, int cc)
         : a(aa), b(bb), c(cc)
     {
+        if(aa > 3)
+        {
+            a = aa;
+        }
     }
 
     int a, b, c;
